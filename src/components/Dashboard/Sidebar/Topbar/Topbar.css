@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.profile__input{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

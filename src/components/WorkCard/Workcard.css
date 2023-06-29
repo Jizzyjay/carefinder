@@ -1,0 +1,41 @@
+.work-card{
+    text-align: center;
+   
+}
+.work-card__image{
+    /* width: 120px; */
+    /* height: 120px; */
+    display: block;
+    text-align: center;
+     
+}
+.work-card__image img{
+  
+    text-align: center;
+    
+}
+.work-card__body{
+    display: block;
+    text-align: center;
+   
+}
+.work-card__body h3{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #000000;
+}
+.work-card__body p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 150%;
+text-align: center;
+letter-spacing: -0.011em;
+
+color: #000000;
+width: 143px;
+}

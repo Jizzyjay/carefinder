@@ -1,0 +1,13 @@
+
+body{
+    background: #e0e4ec;
+    
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+.App{
+    padding: 0;
+    overflow: hidden;
+}

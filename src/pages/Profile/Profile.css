@@ -1,0 +1,15 @@
+.dashboard__profile{
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background: #FFF;
+}
+.profile h1{
+        color: #08299B;
+    }

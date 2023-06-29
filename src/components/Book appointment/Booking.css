@@ -1,0 +1,88 @@
+.booking {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2rem;
+  background: #fff;
+}
+
+.book__right-side {
+  /* flex: 1; */
+  margin-right: 20px;
+}
+
+.book__left-side {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.book__header {
+  text-align: center;
+  color: #08299b;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.book__images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.book__button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.book__button p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.0275rem;
+  color: #08299b;
+}
+.book__button button {
+  padding: 0.5rem 5.5rem;
+  border: none;
+  border-radius: 10px;
+  background: #08299b;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: -0.02406rem;
+}
+
+.book__button button:hover {
+  background: #fff;
+  color: #08299b;
+  border: 1px solid #08299b;
+  cursor: pointer;
+}
+
+.book-input {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}
+
+.book__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.book__input input {
+  padding: 0.5rem 4.5rem;
+  border: 1px solid #08299b;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: -0.02406rem;
+}

@@ -1,0 +1,107 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.home__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  padding-bottom: 8rem;
+}
+
+.home__right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home__left-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__left-side h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.011em;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.home__left-side h1 span {
+  color: #08299b;
+}
+
+.home__left-side p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.011em;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.home__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__left-side button {
+  padding: 12px 24px;
+  background: #08299b;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.011em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.home__img-1 {
+  margin-bottom: 10px;
+}
+.home__img-2 {
+  margin: 30px 10px 0 10px;
+}
+
+.home__img-2 img {
+  width: 388px;
+  height: 500px;
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+/* Additional CSS for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust the layout for smaller screens */
+  .home__section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home__right-side {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .home__left-side {
+    text-align: center;
+  }
+}

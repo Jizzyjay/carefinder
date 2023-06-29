@@ -1,0 +1,28 @@
+.sidebar__container{
+    position: absolute;
+    top: 9rem;
+}
+
+.sidebar__header{
+    display: flex;
+    width: 22.125rem;
+    height: 4.375rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar__header h4{
+    color: #000;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: -0.01375rem;
+
+}
+.sidebar__container h4{
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.01375rem;
+    border-radius: 12px;
+}

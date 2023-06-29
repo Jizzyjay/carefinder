@@ -1,0 +1,52 @@
+.work{
+    background: url(../../Assets/Group\ 36.png);
+    background-repeat: no-repeat;
+padding: 5rem 8rem;
+  background-position: center center;
+  background-color: #fff;
+
+}
+  .work__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 700;
+font-size: 40px;
+letter-spacing: -0.011em;
+color: #08299B;
+  }
+  
+   
+  .work__card {
+    display: flex;
+    margin-top: 20rem;
+    justify-content: space-evenly;
+  }
+  
+  /* Style for individual WorkCard components */
+  .work__card .card {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work__card .card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .work__card .card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .work__card .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
